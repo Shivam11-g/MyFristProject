@@ -1,0 +1,50 @@
+body{
+	background:url("1301_rubik_1600x1200.jpg");
+	background-size: 100%;
+}
+button{
+	background:black;
+	opacity: 0.7;
+	border: none;
+	color: white;
+	padding:20px;
+	margin: 30px;
+	font-family:  courier;
+	font-size: 20px;
+	font-style: bold;
+}
+button:hover{
+	
+	box-shadow: 2px 2px 20px #fff;
+}
+#img{
+	height: 90px;
+	margin-bottom: 1px;
+	margin-top:1px;	
+	}
+
+#p{
+
+    color: white;
+    font-family: courier;
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+#score{
+    
+    left: 90%;
+    top: -125px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    padding-right: 30px;
+}
+#time{
+    position: relative;
+    top: 30;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+    

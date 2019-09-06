@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HIT HIGH</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div style="text-align: center;height: 610px;margin-left:  200px;margin-right: 200px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,0.19);">
+	<div>
+		<h1 style="color: white; font-family: livvic; font-size: 50px;  text-shadow: 5px 5px 30px #ff8c00">
+		Roll The Dice</h1>
+
+	</div>
+	<div id="time"><i class="fa fa-clock-o"></i>&nbsp;&nbsp;<span id="timer">20s</span></div>
+	<div>
+		<div style="color: white;" id="p">
+			SCORE: 
+		</div>
+		<p id="score">0</p>
+		<div>
+			<img id="img" src="dice-1.png" style="box-shadow: 5px 5px 10px #000; border-radius:  3px;">
+		</div>
+	</div>
+	<center>
+		<div>
+			<button id="rollDice" onclick="roll()" >
+	                 <i style="font-size:24px" class="fa">&#xf021;</i>&nbsp;ROLL DICE
+            </button>
+		
+			<button onclick="reload();" style="">
+				&#9889; NEW GAME
+			</button>
+		</div>
+	</center>
+	<div style="text-align: center;">
+		
+	</div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="game.js">
+	
+
+</script>
+</html>
