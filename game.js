@@ -27,7 +27,7 @@ function roll() {
 function timer() {
     if (t<0) {
         document.getElementById("rollDice").disabled=true;
-        alert("Bole To GAME OVER");
+        modal.style.display = "block";
         return 0;
     }
     else {
@@ -38,4 +38,28 @@ function timer() {
 }
 function reload(){
 	document.location.reload() ;
+}
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
